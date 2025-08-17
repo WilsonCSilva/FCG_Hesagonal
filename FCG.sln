@@ -97,6 +97,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", 
 		FCG\Repository\UsuarioRepository.cs = FCG\Repository\UsuarioRepository.cs
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{9CC02D0A-4881-4E99-B35B-65EE99FA209E}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\Migrations\20250530032336_FCG_CRIACAO_BANCO_DE_DADOS.cs = FCG\Migrations\20250530032336_FCG_CRIACAO_BANCO_DE_DADOS.cs
+		FCG\Migrations\20250530032336_FCG_CRIACAO_BANCO_DE_DADOS.Designer.cs = FCG\Migrations\20250530032336_FCG_CRIACAO_BANCO_DE_DADOS.Designer.cs
+		FCG\Migrations\20250531202548_CorrecaoIdentityPedido.cs = FCG\Migrations\20250531202548_CorrecaoIdentityPedido.cs
+		FCG\Migrations\20250531202548_CorrecaoIdentityPedido.Designer.cs = FCG\Migrations\20250531202548_CorrecaoIdentityPedido.Designer.cs
+		FCG\Migrations\ApplicationDbContextModelSnapshot.cs = FCG\Migrations\ApplicationDbContextModelSnapshot.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -148,6 +157,7 @@ Global
 		{558458AD-4139-423D-AADE-669E5FA9EA40} = {F541BFCC-8039-422F-B890-6580A5CD8574}
 		{B65B8C25-08F3-44BB-BEE4-F99AA1BE0F37} = {266651D1-E450-438A-8713-C1D653FBA698}
 		{26B61AD6-2295-4121-AB80-D2B53478D9E0} = {266651D1-E450-438A-8713-C1D653FBA698}
+		{9CC02D0A-4881-4E99-B35B-65EE99FA209E} = {266651D1-E450-438A-8713-C1D653FBA698}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6CBB4B5-DA4D-4AFF-8BFE-BAD7617089B9}
