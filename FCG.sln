@@ -19,11 +19,83 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driven", "Driven", "{266651D1-E450-438A-8713-C1D653FBA698}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driver", "Driver", "{952D54C7-2F5B-4CD4-B220-5601AD527380}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Driving", "Driving", "{952D54C7-2F5B-4CD4-B220-5601AD527380}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplication", "Aplication\Aplication.csproj", "{0114EEC7-5736-4D68-B682-2D03BD4ADCD4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dominio", "Dominio\Dominio.csproj", "{24CA8517-CE12-4862-AEA6-D6733CBBDD5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{5D112696-5851-4571-96FC-802BC56FE51B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{C152211F-1D21-4811-B7BD-E05C4CE12A6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entidades", "Entidades", "{6EE6ED19-4641-4A3E-B1CB-D02C85FFA6D7}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\Models\EntityBase.cs = FCG\Models\EntityBase.cs
+		FCG\Models\ErroResponse.cs = FCG\Models\ErroResponse.cs
+		FCG\Models\Game.cs = FCG\Models\Game.cs
+		FCG\Models\Pedido.cs = FCG\Models\Pedido.cs
+		FCG\Models\Usuario.cs = FCG\Models\Usuario.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{F541BFCC-8039-422F-B890-6580A5CD8574}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllres", "Controllres", "{6ED5E208-535B-447D-B259-3332C296EFF7}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\Controllers\AuthController.cs = FCG\Controllers\AuthController.cs
+		FCG\Controllers\GameController.cs = FCG\Controllers\GameController.cs
+		FCG\Controllers\PedidoController.cs = FCG\Controllers\PedidoController.cs
+		FCG\Controllers\UsuarioController.cs = FCG\Controllers\UsuarioController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DTOs", "DTOs", "{1B11822E-3C5B-4867-A78C-7801A5FD487C}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\DTOs\GameDto.cs = FCG\DTOs\GameDto.cs
+		FCG\DTOs\PedidoDto.cs = FCG\DTOs\PedidoDto.cs
+		FCG\DTOs\UsuarioDto.cs = FCG\DTOs\UsuarioDto.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imputs", "Imputs", "{611B2072-889E-402A-86CE-BC4781D0CF5A}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\Inputs\GameInput.cs = FCG\Inputs\GameInput.cs
+		FCG\Inputs\GameUpdateInput.cs = FCG\Inputs\GameUpdateInput.cs
+		FCG\Inputs\PedidoInput.cs = FCG\Inputs\PedidoInput.cs
+		FCG\Inputs\PedidoUpdateInput.cs = FCG\Inputs\PedidoUpdateInput.cs
+		FCG\Inputs\UsuarioInput.cs = FCG\Inputs\UsuarioInput.cs
+		FCG\Inputs\UsuarioUpdateInput.cs = FCG\Inputs\UsuarioUpdateInput.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{1826A6D9-6DBF-4B19-93F8-BFD406915E43}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\Configurations\GameConfiguration.cs = FCG\Configurations\GameConfiguration.cs
+		FCG\Configurations\PedidoConfiguration.cs = FCG\Configurations\PedidoConfiguration.cs
+		FCG\Configurations\UsuarioConfiguration.cs = FCG\Configurations\UsuarioConfiguration.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middlewares", "Middlewares", "{AE19F415-00A1-45DD-A034-67FDAD0BE8E6}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\Middlewares\BaseLogger.cs = FCG\Middlewares\BaseLogger.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Helpers", "Helpers", "{558458AD-4139-423D-AADE-669E5FA9EA40}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\Helpers\CriptografiaHelper.cs = FCG\Helpers\CriptografiaHelper.cs
+		FCG\Helpers\LoginHelper.cs = FCG\Helpers\LoginHelper.cs
+		FCG\Helpers\TextoHelper.cs = FCG\Helpers\TextoHelper.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B65B8C25-08F3-44BB-BEE4-F99AA1BE0F37}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\Infrastructure\ApplicationDbContext.cs = FCG\Infrastructure\ApplicationDbContext.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repository", "Repository", "{26B61AD6-2295-4121-AB80-D2B53478D9E0}"
+	ProjectSection(SolutionItems) = preProject
+		FCG\Repository\EFRepository.cs = FCG\Repository\EFRepository.cs
+		FCG\Repository\GameRepository.cs = FCG\Repository\GameRepository.cs
+		FCG\Repository\PedidoRepository.cs = FCG\Repository\PedidoRepository.cs
+		FCG\Repository\UsuarioRepository.cs = FCG\Repository\UsuarioRepository.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,11 +131,23 @@ Global
 		{20C3EE44-8880-49CD-9FA3-BD3BE55CC620} = {C18B9402-30EF-4D13-A57C-153AFCB669E2}
 		{08D5DDEE-1B7F-47B6-BD5F-10FD71B89994} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8912017A-033D-4952-AE7C-4C8A65B2EFED} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
-		{F9C58A4D-FD89-4979-A80B-D78C6AF47893} = {266651D1-E450-438A-8713-C1D653FBA698}
+		{F9C58A4D-FD89-4979-A80B-D78C6AF47893} = {00000000-0000-0000-0000-000000000000}
 		{266651D1-E450-438A-8713-C1D653FBA698} = {8912017A-033D-4952-AE7C-4C8A65B2EFED}
 		{952D54C7-2F5B-4CD4-B220-5601AD527380} = {8912017A-033D-4952-AE7C-4C8A65B2EFED}
-		{0114EEC7-5736-4D68-B682-2D03BD4ADCD4} = {08D5DDEE-1B7F-47B6-BD5F-10FD71B89994}
-		{24CA8517-CE12-4862-AEA6-D6733CBBDD5F} = {08D5DDEE-1B7F-47B6-BD5F-10FD71B89994}
+		{0114EEC7-5736-4D68-B682-2D03BD4ADCD4} = {00000000-0000-0000-0000-000000000000}
+		{24CA8517-CE12-4862-AEA6-D6733CBBDD5F} = {00000000-0000-0000-0000-000000000000}
+		{5D112696-5851-4571-96FC-802BC56FE51B} = {08D5DDEE-1B7F-47B6-BD5F-10FD71B89994}
+		{C152211F-1D21-4811-B7BD-E05C4CE12A6E} = {08D5DDEE-1B7F-47B6-BD5F-10FD71B89994}
+		{6EE6ED19-4641-4A3E-B1CB-D02C85FFA6D7} = {5D112696-5851-4571-96FC-802BC56FE51B}
+		{F541BFCC-8039-422F-B890-6580A5CD8574} = {952D54C7-2F5B-4CD4-B220-5601AD527380}
+		{6ED5E208-535B-447D-B259-3332C296EFF7} = {F541BFCC-8039-422F-B890-6580A5CD8574}
+		{1B11822E-3C5B-4867-A78C-7801A5FD487C} = {F541BFCC-8039-422F-B890-6580A5CD8574}
+		{611B2072-889E-402A-86CE-BC4781D0CF5A} = {F541BFCC-8039-422F-B890-6580A5CD8574}
+		{1826A6D9-6DBF-4B19-93F8-BFD406915E43} = {F541BFCC-8039-422F-B890-6580A5CD8574}
+		{AE19F415-00A1-45DD-A034-67FDAD0BE8E6} = {F541BFCC-8039-422F-B890-6580A5CD8574}
+		{558458AD-4139-423D-AADE-669E5FA9EA40} = {F541BFCC-8039-422F-B890-6580A5CD8574}
+		{B65B8C25-08F3-44BB-BEE4-F99AA1BE0F37} = {266651D1-E450-438A-8713-C1D653FBA698}
+		{26B61AD6-2295-4121-AB80-D2B53478D9E0} = {266651D1-E450-438A-8713-C1D653FBA698}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6CBB4B5-DA4D-4AFF-8BFE-BAD7617089B9}
